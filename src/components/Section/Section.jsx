@@ -1,12 +1,9 @@
-import {Title} from './Section.styled'
+import { Title } from './Section.styled';
 
-
-export const Section = ({title})=> {
-
-     return (
+export const Section = ({ title }) => {
+  return (
     <div>
-           
-        <Title>{title}</Title>
-        
-       </div>
-)}
+      <Title>{title}</Title>
+    </div>
+  );
+};
